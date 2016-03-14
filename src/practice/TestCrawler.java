@@ -3,7 +3,7 @@ package practice;
 import com.android.ddmlib.AndroidDebugBridge;
 import com.android.ddmlib.IDevice;
 
-public class Crawler {
+public class TestCrawler {
 	private static String sAdbLocation = null;
 	static {
 		sAdbLocation = isWindow() ? "adb" : "/Users/jungho/Library/Android/sdk/platform-tools/adb";
